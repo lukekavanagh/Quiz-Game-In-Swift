@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.20" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.16"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LukeQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1X-lX-Vqp">
+                                <rect key="frame" x="36" y="28" width="525" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6jq-4r-9oV">
+                                <rect key="frame" x="10" y="100" width="580" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.23140408965920556" blue="0.35751529431269202" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKw-g9-Ips">
+                                <rect key="frame" x="10" y="150" width="580" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.14393255156322637" blue="0.22897723265408887" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueG-nN-M5s">
+                                <rect key="frame" x="10" y="194" width="580" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.14668195472245227" blue="0.2277806132776502" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Button3Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G1g-xo-AZh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tv3-gT-Hfo">
+                                <rect key="frame" x="10" y="244" width="580" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.15753997144253751" blue="0.24341891471249155" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Button4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jf6-gG-fcj"/>
+                                    <action selector="Button4Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ywv-Uy-Hl4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOW-80-ZP0">
+                                <rect key="frame" x="344" y="324" width="212" height="30"/>
+                                <state key="normal" title="Next Question Please">
+                                    <color key="titleColor" red="0.12426760639455581" green="0.21638588698632599" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uVp-cS-Eab"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v01-OG-d2b">
+                                <rect key="frame" x="10" y="289" width="580" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JKw-g9-Ips" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2Aj-pq-esE"/>
+                            <constraint firstItem="v01-OG-d2b" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="7u3-8W-YFD"/>
+                            <constraint firstItem="Tv3-gT-Hfo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9T8-Vl-0rv"/>
+                            <constraint firstItem="EOW-80-ZP0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BNy-Bn-CRE"/>
+                            <constraint firstItem="6jq-4r-9oV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H6d-9Q-Tuv"/>
+                            <constraint firstItem="r1X-lX-Vqp" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="KBn-3V-hf0"/>
+                            <constraint firstItem="ueG-nN-M5s" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NMg-nc-B2F"/>
+                            <constraint firstItem="Tv3-gT-Hfo" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="QH5-wj-StS"/>
+                            <constraint firstItem="v01-OG-d2b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SKX-o4-aDj"/>
+                            <constraint firstItem="6jq-4r-9oV" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Szx-M1-PgK"/>
+                            <constraint firstItem="r1X-lX-Vqp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uh0-ia-QZe"/>
+                            <constraint firstItem="JKw-g9-Ips" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="WbO-4W-mxo"/>
+                            <constraint firstItem="ueG-nN-M5s" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="kzf-Zp-ThJ"/>
+                            <constraint firstItem="EOW-80-ZP0" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="pS1-3G-aYZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Button1" destination="6jq-4r-9oV" id="CaA-nm-bla"/>
+                        <outlet property="Button2" destination="JKw-g9-Ips" id="XP3-J0-1EB"/>
+                        <outlet property="Button3" destination="ueG-nN-M5s" id="0ZW-mg-goR"/>
+                        <outlet property="Button4" destination="Tv3-gT-Hfo" id="G5Q-PL-r3p"/>
+                        <outlet property="LabelEnd" destination="v01-OG-d2b" id="u8F-HL-FLs"/>
+                        <outlet property="Next" destination="EOW-80-ZP0" id="E2g-7o-lWc"/>
+                        <outlet property="QuestionLabel" destination="r1X-lX-Vqp" id="wTB-OB-dz6"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="305" y="429"/>
+        </scene>
+    </scenes>
+</document>
